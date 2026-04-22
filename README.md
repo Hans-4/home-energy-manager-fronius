@@ -7,7 +7,7 @@
 | Device          | Verification              | Script  | Url |
 |-----------------|---------------------------|---------|-----|
 | Symo 10.0-3-M   | self tested               | symo.py | /   |
-| Symo 3.0 - 20.0 | should work / not testet  | symo.py | /   |
+| Symo 3.0 - 20.0 | should work / not tested  | symo.py | /   |
 
 ## Installation
 
