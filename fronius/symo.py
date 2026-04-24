@@ -24,6 +24,17 @@ class FroniusSymoApi:
         return f"{revenue:.2f}"
 
     def get_data(self, data):
+        """Returning data:
+        - 0 current_production
+        - 1 current_grid_usage
+        - 2 current_load
+        - 3 daily production
+        - 4 daily revenue
+        - 5 yearly production
+        - 6 yearly revenue
+        - 7 total production
+        - 8 total revenue
+        """
         #get the data in watts
         values = {
             'current_production': self.get_nested_value(data, 'Body', 'Data', 'Inverters', '1', 'P'),
